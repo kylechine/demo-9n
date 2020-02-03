@@ -1,0 +1,20 @@
+{
+  "name": "demo_9n",
+  "version": "1.0.0",
+  "description": "Demo for 9News JavaScript Developer position.",
+  "private": true,
+  "main":  "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "lib": "./dist/lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Demo",
+    "9News"
+  ],
+  "author": "Kyle Chine",
+  "license": "UNLICENSED"
+}
