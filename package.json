@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Demo for 9News JavaScript Developer position.",
   "private": true,
-  "main":  "./dist/index.js",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "directories": {
     "lib": "./dist/lib"
@@ -16,5 +16,20 @@
     "9News"
   ],
   "author": "Kyle Chine",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/body-parser": "^1.17.1",
+    "@types/cors": "^2.8.6",
+    "@types/node": "^13.7.0",
+    "@types/express": "^4.17.2"
+  },
+  "dependencies": {
+    "@leismore/all_handler": "^1.1.0",
+    "@leismore/error_handler_last": "^1.0.1",
+    "@leismore/lmerror": "^4.0.1",
+    "@leismore/response": "^3.0.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
 }
