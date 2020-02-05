@@ -9,6 +9,7 @@
  * 5        Could not decode request: invalid slug
  * 6        Could not decode request: invalid title
  * 7        HTTP header missing: "Content-Type: application/json"
+ * 8        HTTP 405: Method Not Allowed
  */
 
 import { LMError } from '@leismore/lmerror';
