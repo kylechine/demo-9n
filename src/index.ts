@@ -6,6 +6,7 @@
 import * as express                from 'express';
 import cors                        = require('cors');
 import bodyParser                  = require('body-parser');
+import { error_handler }           from './lib/error_handler';
 import { error_handler_last }      from '@leismore/error_handler_last';
 import { all_handler }             from './lib/all_handler';
 import { post_handler1 }           from './lib/post_handler1';
@@ -18,7 +19,7 @@ const corsOptions:cors.CorsOptions = {
 
 // Init.
 let app = express();
-app.use( cors(corsOptions), bodyParser.json() );
+app.use( cors(corsOptions), bodyParser.json(), error_handler ); // error_handler for invalid JSON
 
 // Handlers
 app.all(     '/', all_handler );
